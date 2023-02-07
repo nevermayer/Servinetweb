@@ -5,3 +5,6 @@ nixpacksConfigPath = "nixpacks.toml"
 [deploy]
 restartPolicyType = "ALWAYS"
 restartPolicyMaxRetries = 10
+
+[phase.name]
+  cacheDirectories = ['MyFiles']
